@@ -23,3 +23,4 @@ fourth_level = maximum_price - difference * 0.618
 
 ```
 
+![alt text](http://picsum.photo/200/200)

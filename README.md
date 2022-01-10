@@ -31,3 +31,6 @@ Some paragraph with text
 | heading | header | head |
 | --- |--- | ---|
 | content | more content | text |
+
+* italic *
+** Gras **

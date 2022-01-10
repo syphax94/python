@@ -23,4 +23,4 @@ fourth_level = maximum_price - difference * 0.618
 
 ```
 
-![alt text](https://ibb.co/xFGFb1Z)
+![alt text](https://i.ibb.co/7kVkDnh/index.png)

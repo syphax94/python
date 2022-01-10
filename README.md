@@ -1,7 +1,7 @@
 # Python-
 
 Code Fibonacci en python
-#####
+#####Un code entier
 # Calculate the Fibonacci Retracement Level Prices 
 
 maximum_price = df['Close'].max()

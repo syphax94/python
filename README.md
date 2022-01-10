@@ -27,4 +27,5 @@ fourth_level = maximum_price - difference * 0.618
 
 Some paragraph with text
 > blockquote text below the paragraph
- | heading | header | head
+
+| heading | header | head

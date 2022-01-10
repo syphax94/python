@@ -32,6 +32,4 @@ Some paragraph with text
 | --- |--- | ---|
 | content | more content | text |
 
-* italic *
-
-** Gras **
+This is being * created * on a **Friday ** ~~Saturday~~.

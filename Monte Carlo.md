@@ -4,6 +4,17 @@
  
  C’est une technique statistique permettant de comprendre l’influence de l’incertitude dans les modèles de prédiction, notamment en finance.
 
+
+# Nous allons prendre l'action AIR LIQUIDE, prix  initial 158.22€
+
+* Volatilité 1.11%
+ 
+![alt text](https://i.ibb.co/FYXdLJV/screen2.png)
+
+Drift = Excepted Return = Risk free rate + (Beta*Market Return Premium)
+                        -> Excepted Return = 0.243% + ( 0.57 * 1.76%)
+                        -> Drift = 0.244%
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np

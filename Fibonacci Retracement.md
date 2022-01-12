@@ -35,6 +35,7 @@ df
 ```
 
 * screen 1
+
 ![alt text](https://i.ibb.co/smB4fKy/screen1.png)
 
 Nous allons définir aipa comme ticker pour récupérer des informations depuis yahoo finance
@@ -47,6 +48,7 @@ aipa.info
 ```
 
 * screen 2
+
 ![alt text](https://i.ibb.co/GRFJdnh/screen2.png)
 
 * Les autres commandes yfinance à connaitre : aipa.dividends; aipa.splits; aipa.major_holders; aipa..institutional_holders; aipa.earnings; aipa.sustainability; aipa.cashflow; aipa.balance_sheet; aipa.analysis; aipa.recommendations; aipa.calendar; aipa.isin
@@ -83,6 +85,7 @@ fourth_level = maximum_price - difference * 0.618
 ```
 
 * screen 3
+
 ![alt text](https://i.ibb.co/BLV5zQ0/screen3.png)
 
 # Nous allons définir ghraphiquement les différents niveau de prix
@@ -108,6 +111,7 @@ plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 plt.show()
 ```
 * screen 4
+
 ![alt text](https://i.ibb.co/jrCXhCP/screen4.png)
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code
@@ -148,6 +152,14 @@ df = yf.download('AI.PA', start ="2021-10-01", end="2022-12-31")
 * screen 6
 
 ![alt text](https://i.ibb.co/tD9DqvF/screen6.png)
+
+# Tendance sur ~ 30 jours
+```python
+df = yf.download('AI.PA', start ="2021-12-01", end="2022-01-12")
+```
+* screen 7
+
+![alt text](https://i.ibb.co/Czd4GLb/screen7.png)
 
 
 

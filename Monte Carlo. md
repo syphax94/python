@@ -1,4 +1,6 @@
 # La simulation Monte Carlo
 
- Les simulations de Monte-Carlo sont des algorithmes utilisés dans le but d’estimer la probabilité d’occurrence d’un scénario dans lequel interviennent des paramètres aléatoires. C’est une technique statistique permettant de comprendre l’influence de l’incertitude dans les modèles de prédiction, notamment en finance.
+ Les simulations de Monte-Carlo sont des algorithmes utilisés dans le but d’estimer la probabilité d’occurrence d’un scénario dans lequel interviennent des paramètres aléatoires. 
+ 
+ C’est une technique statistique permettant de comprendre l’influence de l’incertitude dans les modèles de prédiction, notamment en finance.
 

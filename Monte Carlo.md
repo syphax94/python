@@ -69,3 +69,5 @@ plt.show()
 print(np.average(call_payoffs)*100)  # Options are in blocks of 100
 
 ```
+
+![alt text](https://i.ibb.co/hZ86Xzg/screen1.png)

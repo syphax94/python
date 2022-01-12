@@ -5,7 +5,7 @@
  C’est une technique statistique permettant de comprendre l’influence de l’incertitude dans les modèles de prédiction, notamment en finance.
 
 
-# Nous allons prendre l'action AIR LIQUIDE, prix  initial 158.22€
+# Nous allons prendre l'action AIR LIQUIDE, prix  initial 158.20€
 
 * Volatilité 1.11%
  
@@ -14,6 +14,11 @@
 Drift = Excepted Return = Risk free rate + (Beta*Market Return Premium)
                         -> Excepted Return = 0.243% + ( 0.57 * 1.76%)
                         -> Drift = 0.244%
+* Beta
+
+![alt text](https://i.ibb.co/Hgm0wdc/beta.png)
+
+# Code Simulation Monte Carlo
 
 ```python
 import matplotlib.pyplot as plt
@@ -55,7 +60,7 @@ class GeometricBrownianMotion:
 
 # Model Parameters
 paths = 100
-initial_price = 158.22
+initial_price = 158.20
 drift = .0244
 volatility = .0111
 dt = 1/365

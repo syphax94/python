@@ -116,7 +116,7 @@ plt.show()
 ```
 * screen 4
 
-![alt text](https://i.ibb.co/jrCXhCP/screen4.png)
+![alt text](https://i.ibb.co/wznmynF/screen4.png)
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code
 

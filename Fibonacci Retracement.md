@@ -138,4 +138,16 @@ plt.show()
 ```
 
 * screen 5
+
 ![alt text](https://i.ibb.co/C1cmkKY/screen5.png)
+
+# Tendance sur 3 mois
+```python
+df = yf.download('AI.PA', start ="2021-10-01", end="2022-12-31")
+```
+* screen 6
+
+![alt text](https://i.ibb.co/tD9DqvF/screen6.png)
+
+
+

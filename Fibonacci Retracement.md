@@ -166,6 +166,6 @@ df = yf.download('AI.PA', start ="2021-12-01", end="2022-01-12")
 ![alt text](https://i.ibb.co/Czd4GLb/screen7.png)
 
 
-Thanks for your reading.
+Merci pour votre lecture.
 
 Sifax

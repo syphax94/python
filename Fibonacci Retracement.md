@@ -55,7 +55,7 @@ aipa.info
 
 ![alt text](https://i.ibb.co/GRFJdnh/screen2.png)
 
-* Les autres commandes yfinance à connaitre : aipa.dividends; aipa.splits; aipa.major_holders; aipa..institutional_holders; aipa.earnings; aipa.sustainability; aipa.cashflow; aipa.balance_sheet; aipa.analysis; aipa.recommendations; aipa.calendar; aipa.isin
+* Les autres commandes yfinance à connaitre : aipa.dividends; aipa.splits; aipa.major_holders; aipa.institutional_holders; aipa.earnings; aipa.sustainability; aipa.cashflow; aipa.balance_sheet; aipa.analysis; aipa.recommendations; aipa.calendar; aipa.isin
 
 # Calculer les différents prix du niveau de retracement de Fibonacci
 

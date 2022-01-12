@@ -11,12 +11,21 @@
  
 ![alt text](https://i.ibb.co/FYXdLJV/screen2.png)
 
-Drift = Excepted Return = Risk free rate + (Beta*Market Return Premium)
-                        -> Excepted Return = 0.243% + ( 0.57 * 1.76%)
-                        -> Drift = 0.244%
-* Beta
+* Risk free rate = 0.2340
+
+![alt text](https://i.ibb.co/4fd2J5d/taux-sans-risque.png)
+
+* Beta = 0.57
 
 ![alt text](https://i.ibb.co/Hgm0wdc/beta.png)
+
+* Market Return Premium = 1.76%
+
+![alt text](https://i.ibb.co/sg63S3s/market-return-premium.png)
+
+Drift = Excepted Return = Risk free rate + (Beta * Market Return Premium)
+                        -> Excepted Return = 0.243% + ( 0.57 * 1.76%)
+                        -> Drift = 0.244%
 
 # Code Simulation Monte Carlo
 

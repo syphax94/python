@@ -99,4 +99,5 @@ print(np.average(call_payoffs)*100)  # Options are in blocks of 100
 
 
 Merci pour votre lecture.
+
 Sifax

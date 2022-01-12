@@ -167,4 +167,4 @@ df = yf.download('AI.PA', start ="2021-12-01", end="2022-01-12")
 
 
 Thanks for your reading.
-
+@sifax

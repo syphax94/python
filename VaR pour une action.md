@@ -11,7 +11,7 @@ Supposons que notre portefeuille se compose de 5 actions d'une valeur de 10 000 
 - VINCI SA (DG.PA)
 - Safran SA (SAF.PA)
 
-
+VaR 
 ```python 
 import pandas as pd
 import numpy as np
@@ -43,16 +43,16 @@ def Port_VaR(start_date, end_date, stocks, exposure, confidence_interval, Days):
     
     print("The total exposure for Portfolio is ", "{0:,.2f}".format(sum(exposure)),"USD")
     
-    print("{} day Portfolio VaR at {}% Confidence Interval".format(Days,confidence_interval), "is", port_VaR*100)
+    print("{} day Portfolio VaR at {}% Confidence Interval".format(Days,confidence_interval), "is", port_VaR)
      
     print("{} day Portfolio VaR at {}% Confidence Interval".format(Days,confidence_interval), "is USD", port_VaR*sum(exposure))
 
 
-Port_VaR('2021-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
+Port_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
 # résultat(screen 1)
 ```
 
-![alt text](https://i.ibb.co/BngB8Dr/screen-01.png)
+![alt text](https://i.ibb.co/0rqxxMw/screen-01.png)
 
 
 La VaR au seuil de confiance de 99% à 1 jour, égale à 267,69$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 267,69$.

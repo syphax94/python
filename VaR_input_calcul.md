@@ -1,7 +1,8 @@
 
 ### Value at Risk pour l'action AIR LIQUIDE
 
-Ce code permet d'entrer 2 types de données: Confidence Interval & Time Horizon(days)
+Ce code permet d'entrer 2 types de données: Confidence Interval & Time Horizon(days).
+
 Puis le calcul de la VaR se fait automatiquement.
 
 

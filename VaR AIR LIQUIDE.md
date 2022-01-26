@@ -26,7 +26,7 @@ data['return'] = np.log(data['AI.PA'] / data['AI.PA'].shift(-1))
 # VaR = Volatility * Confidence Interval * sqrt(Time)
 
 # Volatility
-vol = data['return'].std() #std Calculate the Standard Deviation of a List
+vol = data['return'].std() 
 
 # Confidence Interval
 confidence_interval = stats.norm.ppf(0.99)

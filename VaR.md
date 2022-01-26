@@ -49,7 +49,7 @@ print('Simulated VAR is', SimVAR) # screen 3
 
 * screen 1
 
-![alt text](https://i.ibb.co/m8p82cF/screen-01.png)
+![alt text](https://i.ibb.co/hgWY95p/screen-01.png)
 
 
 * screen 2

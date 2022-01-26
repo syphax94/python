@@ -71,4 +71,5 @@ print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/1
 
 
 Merci pour votre lecture.
+
 Sifax

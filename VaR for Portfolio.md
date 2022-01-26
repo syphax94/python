@@ -53,8 +53,8 @@ Port_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'
 
 tickers = ["AI.PA", "SGO.PA", "ALO.PA", "DG.PA","SAF.PA"]
 multpl_stocks = web.get_data_yahoo(tickers,
-start = "2009-1-1",
-end = "2022-1-26")
+                                   start = "2009-1-1",
+                                   end = "2022-1-26")
 
 # Tracer les prix des actions du portefeuille
 fig = plt.figure(figsize=(12,6))

@@ -4,7 +4,7 @@
 La VaR mesure la pire perte attendue sur un horizon donné dans des conditions normales de marché à un niveau de confiance donné.
 
 ### Calucul de la VaR
-Supposons que notre portefeuille se compose de 5 actions d'une valeur de 10.000,00$ 
+Supposons que notre portefeuille se compose de 5 actions d'une valeur de 10 000 $ 
 - AIR LIQUIDE (AI.PA) 
 - Compagnie de Saint-Gobain S.A. (SGO.PA)
 - Alstom SA (ALO.PA)

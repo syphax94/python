@@ -55,5 +55,5 @@ Port_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'
 ![alt text](https://i.ibb.co/0rqxxMw/screen-01.png)
 
 
-La VaR au seuil de confiance de 99% à 1 jour, égale à 267,69$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 267,69$.
+La VaR au seuil de confiance de 99% à 1 jour, égale à 353,61$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 353,61$.
 

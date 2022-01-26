@@ -27,15 +27,15 @@ aipa = web.get_data_yahoo("AI.PA",
  
 mean = np.mean(rets)
 std = np.std(rets)
-n_1 = norm.ppf(1-0.99) 
-n_5 = norm.ppf(1-0.95) 
+C_1 = norm.ppf(1-0.99) 
+C_5 = norm.ppf(1-0.95) 
 price = aipa.iloc[-1]['Close']
 
-print('1% Confidence :', mean, std, n_1, price)
-print('5% Confidence',mean, std, n_5, price)       # screen 1
+print('1% Confidence :', mean, std, C_1, price)
+print('5% Confidence',mean, std, C_5, price)       # screen 1
 
-ParamVAR_1 = price*n_1
-ParamVAR_5 = price*n_5
+ParamVAR_1 = price*C_1
+ParamVAR_5 = price*C_5
 HistVAR = price*np.percentile(rets_1.dropna(),1)
 
 print('Parametric VAR for 1% confidence {0:.3f} and Historical VAR is {1:.3}'
@@ -57,12 +57,12 @@ print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/1
 
 * screen 1
 
-![alt text](https://i.ibb.co/ZWXJZ2B/screen-01.png)
+![alt text](https://i.ibb.co/937GJXt/screen-01.png)
 
 
 * screen 2
 
-![alt text](https://i.ibb.co/5jcCvz4/screen-02.png)
+![alt text](https://i.ibb.co/ctVDtXQ/screen-02.png)
 
 
 * screen 3

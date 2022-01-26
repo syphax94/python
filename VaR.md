@@ -27,7 +27,7 @@ aipa = web.get_data_yahoo("AI.PA",
  
 mean = np.mean(rets)
 std = np.std(rets)
-n = norm.ppf(1-0.99) # vérifié si c'est le bon code c pas (0.99)
+n = norm.ppf(1-0.99)
 price = aipa.iloc[-1]['Close']
 
 print(mean, std, n, price) # screen 1

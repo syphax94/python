@@ -19,11 +19,11 @@ from datetime import datetime
 from scipy.stats import norm
 
 aipa = web.get_data_yahoo("AI.PA",
-                        start = "2018-01-01",
-                        end = "2022-1-25")
+                          start = "2018-01-01",
+                          end = "2022-1-25")
                         
  
- rets = (aipa['Close']/aipa['Close'].shift(1))-1
+rets = (aipa['Close']/aipa['Close'].shift(1))-1
  
 mean = np.mean(rets)
 std = np.std(rets)
@@ -40,8 +40,6 @@ HistVAR = price*np.percentile(rets.dropna(),1)
 
 print('Parametric VaR for 1% confidence {0:.3f} and Historical VaR is {1:.3}'
          .format(ParamVAR_1, HistVAR))     
-
-
 print('Parametric VaR for 5% confidence {0:.3f} and Historical VaR is {1:.3}'
          .format(ParamVAR_5, HistVAR)  # screen 2
 
@@ -57,12 +55,12 @@ print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/1
 
 * screen 1
 
-![alt text](https://i.ibb.co/58X4ypN/screen-01.png)
+![alt text](https://i.ibb.co/m6L6S3R/screen-01.png)
 
 
 * screen 2
 
-![alt text](https://i.ibb.co/8YLmC9P/screen-02.png)
+![alt text](https://i.ibb.co/8xxJmLj/screen-02.png)
 
 
 * screen 3

@@ -38,18 +38,18 @@ ParamVAR_1 = price*C_1
 ParamVAR_5 = price*C_5
 HistVAR = price*np.percentile(rets_1.dropna(),1)
 
-print('Parametric VAR for 1% confidence {0:.3f} and Historical VAR is {1:.3}'
+print('Parametric VaR for 1% confidence {0:.3f} and Historical VAR is {1:.3}'
          .format(ParamVAR_1, HistVAR))     
 
 
-print('Parametric VAR for 5% confidence {0:.3f} and Historical VAR is {1:.3}'
+print('Parametric VaR for 5% confidence {0:.3f} and Historical VAR is {1:.3}'
          .format(ParamVAR_5, HistVAR)  # screen 2
 
 np.random.seed(42)
 n_sims = 1000000
 sim_returns = np.random.normal(mean, std, n_sims)
 SimVAR = price*np.percentile(sim_returns, 1)
-print('Simulated VAR is', SimVAR)
+print('Simulated VaR is', SimVAR)
 print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/100)) # screen 3
 
  
@@ -57,17 +57,17 @@ print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/1
 
 * screen 1
 
-![alt text](https://i.ibb.co/937GJXt/screen-01.png)
+![alt text](https://i.ibb.co/58X4ypN/screen-01.png)
 
 
 * screen 2
 
-![alt text](https://i.ibb.co/ctVDtXQ/screen-02.png)
+![alt text](https://i.ibb.co/vhhSZsM/screen-02.png)
 
 
 * screen 3
 
-![alt text](https://i.ibb.co/6w5P6pY/screen-03.png)
+![alt text](https://i.ibb.co/rxkMk8M/screen-03.png)
 
 
 Merci pour votre lecture.

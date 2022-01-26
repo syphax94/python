@@ -1,13 +1,12 @@
 
-### Value At Risk
+### Value at Risk pour l'action AIR LIQUIDE
 
-La VaR mesure la pire perte attendue sur un horizon donné dans des conditions normales de marché à un niveau de confiance donné.
+Ce code permet d'entrer 2 types de données: Confidence Interval & Time Horizon
+Puis le calcul de la VaR se fait automatiquement.
+
+enjoy
 
 ### Calucul de la VaR
-
-Différentes méthodes sont utilisées pour le calcul de la VaR. Dans ce cas nous utilision de l'approche variance-covariance et de la méthode de simulation historique pour le calcul de la VaR.
-
-### Code
 
 ```python 
 import pandas as pd
@@ -38,7 +37,10 @@ print("The Value at Risk of AIR LIQUIDE is {0:.2f} USD".format((VaR/100)*1000000
 # résultat (screen 1)
 ```
 
-![alt text](https://i.ibb.co/CMZHdYN/screen-01.png)
+![alt text](https://i.ibb.co/k61cgWc/screen-01.png)
+
+La VaR au seuil de confiance de 99% à 1 jour, égale à 20,10$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention de l'action AIR LIQUIDE n'excéde pas 20,10$.
 
 Merci pour votre lecture.
+
 Sifax

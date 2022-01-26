@@ -45,7 +45,7 @@ print('Parametric VAR for 1% confidence {0:.3f} and Historical VAR is {1:.3}'
 print('Parametric VAR for 5% confidence {0:.3f} and Historical VAR is {1:.3}'
          .format(ParamVAR_5, HistVAR)  # screen 2
 
-np.random.seed(100)
+np.random.seed(42)
 n_sims = 1000000
 sim_returns = np.random.normal(mean, std, n_sims)
 SimVAR = price*np.percentile(sim_returns, 1)
@@ -67,7 +67,7 @@ print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/1
 
 * screen 3
 
-![alt text](https://i.ibb.co/vmW17Qq/screen-03.png)
+![alt text]()
 
 
 Merci pour votre lecture.

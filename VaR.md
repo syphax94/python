@@ -62,7 +62,7 @@ print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/1
 
 * screen 2
 
-![alt text](https://i.ibb.co/vhhSZsM/screen-02.png)
+![alt text](https://i.ibb.co/8YLmC9P/screen-02.png)
 
 
 * screen 3

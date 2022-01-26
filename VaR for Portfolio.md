@@ -75,6 +75,20 @@ ax5.plot(multpl_stocks['Close']['SAF.PA'])
 ax5.set_title("Safran SA")
 plt.tight_layout()
 plt.show()   # screen 2
+
+# Calcul des rendements pour plusieurs actions
+multpl_stock_daily_returns = multpl_stocks['Close'].pct_change()
+multpl_stock_monthly_returns = multpl_stocks['Close'].resample('M').ffill().pct_change()
+
+print(multpl_stock_monthly_returns.mean()) # screen 4
+
+print(multpl_stock_monthly_returns.std()) # screen 5
+
+# Calcul de la corrélation et de la covariance
+print(multpl_stock_monthly_returns.corr()) # screen 6
+
+print(multpl_stock_monthly_returns.cov()) # screen 7
+
 ```
 
 Screen 1

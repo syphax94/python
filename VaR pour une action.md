@@ -11,7 +11,7 @@ Supposons que notre portefeuille se compose de 5 actions d'une valeur de 10 000 
 - VINCI SA (DG.PA)
 - Safran SA (SAF.PA)
 
-VaR 
+### Code 
 ```python 
 import pandas as pd
 import numpy as np

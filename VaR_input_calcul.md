@@ -4,7 +4,7 @@
 Ce code permet d'entrer 2 types de données: Confidence Interval & Time Horizon
 Puis le calcul de la VaR se fait automatiquement.
 
-enjoy
+
 
 ### Calucul de la VaR
 

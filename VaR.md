@@ -38,11 +38,11 @@ ParamVAR_1 = price*C_1
 ParamVAR_5 = price*C_5
 HistVAR = price*np.percentile(rets.dropna(),1)
 
-print('Parametric VaR for 1% confidence {0:.3f} and Historical VAR is {1:.3}'
+print('Parametric VaR for 1% confidence {0:.3f} and Historical VaR is {1:.3}'
          .format(ParamVAR_1, HistVAR))     
 
 
-print('Parametric VaR for 5% confidence {0:.3f} and Historical VAR is {1:.3}'
+print('Parametric VaR for 5% confidence {0:.3f} and Historical VaR is {1:.3}'
          .format(ParamVAR_5, HistVAR)  # screen 2
 
 np.random.seed(42)

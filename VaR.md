@@ -27,39 +27,47 @@ aipa = web.get_data_yahoo("AI.PA",
  
 mean = np.mean(rets)
 std = np.std(rets)
-n = norm.ppf(1-0.99)
+n_1 = norm.ppf(1-0.99) 
+n_5 = norm.ppf(1-0.95) 
 price = aipa.iloc[-1]['Close']
 
-print(mean, std, n, price) # screen 1
+print('1% Confidence :', mean, std, n_1, price)
+print('5% Confidence',mean, std, n_5, price)       # screen 1
 
-ParamVAR = price*Z_99*std
+ParamVAR_1 = price*n_1
+ParamVAR_5 = price*n_5
 HistVAR = price*np.percentile(rets_1.dropna(),1)
 
-print('Parametric VAR is {0:.3f} and Historical VAR is {1:.3f}'
-         .format(ParamVAR, HistVAR))  # screen 2
+print('Parametric VAR for 1% confidence {0:.3f} and Historical VAR is {1:.3}'
+         .format(ParamVAR_1, HistVAR))     
 
-np.random.seed(42)
+
+print('Parametric VAR for 5% confidence {0:.3f} and Historical VAR is {1:.3}'
+         .format(ParamVAR_5, HistVAR)  # screen 2
+
+np.random.seed(100)
 n_sims = 1000000
 sim_returns = np.random.normal(mean, std, n_sims)
 SimVAR = price*np.percentile(sim_returns, 1)
-print('Simulated VAR is', SimVAR) # screen 3
+print('Simulated VAR is', SimVAR)
+print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(SimVAR*1000000/100)) # screen 3
 
  
 ```
 
 * screen 1
 
-![alt text](https://i.ibb.co/hgWY95p/screen-01.png)
+![alt text](https://i.ibb.co/ZWXJZ2B/screen-01.png)
 
 
 * screen 2
 
-![alt text](https://i.ibb.co/gMfy5X5/screen-02.png)
+![alt text](https://i.ibb.co/5jcCvz4/screen-02.png)
 
 
 * screen 3
 
-![alt text](https://i.ibb.co/CtsdbdD/screen-03.png)
+![alt text](https://i.ibb.co/vmW17Qq/screen-03.png)
 
 
 Merci pour votre lecture.

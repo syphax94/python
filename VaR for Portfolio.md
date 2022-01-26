@@ -50,10 +50,44 @@ def Port_VaR(start_date, end_date, stocks, exposure, confidence_interval, Days):
 
 Port_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
 # résultat(screen 1)
+
+tickers = ["AI.PA", "SGO.PA", "ALO.PA", "DG.PA","SAF.PA"]
+multpl_stocks = web.get_data_yahoo(tickers,
+start = "2009-1-1",
+end = "2022-1-26")
+
+# Tracer les prix des actions du portefeuille
+fig = plt.figure(figsize=(12,6))
+ax1 = fig.add_subplot(321)
+ax2 = fig.add_subplot(322)
+ax3 = fig.add_subplot(323)
+ax4 = fig.add_subplot(324)
+ax5 = fig.add_subplot(325)
+ax1.plot(multpl_stocks['Close']['AI.PA'])
+ax1.set_title("AIR LIQUIDE ")
+ax2.plot(multpl_stocks['Close']['SGO.PA'])
+ax2.set_title("Compagnie de Saint-Gobain SA")
+ax3.plot(multpl_stocks['Close']['ALO.PA'])
+ax3.set_title("Alstom SA")
+ax4.plot(multpl_stocks['Close']['DG.PA'])
+ax4.set_title("VINCI SA")
+ax5.plot(multpl_stocks['Close']['SAF.PA'])
+ax5.set_title("Safran SA")
+plt.tight_layout()
+plt.show()   # screen 2
 ```
+
+Screen 1
 
 ![alt text](https://i.ibb.co/0rqxxMw/screen-01.png)
 
 
 La VaR au seuil de confiance de 99% à 1 jour, égale à 353,61$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 353,61$.
 
+Screen 2
+
+![alt text](https://i.ibb.co/rpWsf9N/screen-02.png)
+
+Merci pour votre lecture.
+
+Sifax

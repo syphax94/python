@@ -68,11 +68,12 @@ plt.show()
 ![alt text](https://i.ibb.co/rZdLgmY/1.png)
 
 
-# Tendance sur 3 mois
+Tendance sur 3 mois
 
 ![alt text](https://i.ibb.co/MByQn06/13.png)
 
-# Tendance sur ~ 30 jours
+
+Tendance sur ~ 30 jours
 
 ![alt text](https://i.ibb.co/Czd4GLb/screen7.png)
 

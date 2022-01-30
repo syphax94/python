@@ -18,7 +18,7 @@ import numpy as np
 import pandas_datareader as web
 from scipy.stats import norm
 
-def Portfolio_VaR(start_date, end_date, stocks, exposure, confidence_interval, Days):
+def Portfolio_VaR(start_date, end_date, stocks, exposure, confidence_interval, day):
     stock = pd.DataFrame()
     stock = web.DataReader(stocks,
                            start= start_date, 
@@ -26,29 +26,26 @@ def Portfolio_VaR(start_date, end_date, stocks, exposure, confidence_interval, D
                            data_source="yahoo")['Close']
     stock_return = stock.pct_change()
     stock_vol = stock_return.std()
-    confidence_interval = norm.ppf(confidence_interval/100)
+    ci = norm.ppf(confidence_interval/100)
     
-    # Portfolio Covariance 
-    stock_cov = np.array(stock_return.cov())
+    # Portfolio Covariance
+    cov = np.array(stock_return.cov())
     
     # Stocks Weightage
     w = np.array(exposure)/sum(exposure)
     w_mat = np.mat(w)
     
     # Portfoltio Variance
-    portfolio_var = (w_mat * stock_cov) * w_mat.T
+    var = (w_mat * cov) * w_mat.T
     
     # Portfoltio VaR
-    portfolio_VaR = np.sqrt(port_var) * confidence_interval * np.sqrt(Days)
+    port_VaR = np.sqrt(var) * ci * np.sqrt(day)
     
-print("The total exposure for Portfolio is ", "{0:.2f}".format(sum(exposure)),"USD")
-    
-    print("{} day Portfolio VaR at {}% Confidence Interval".format(Days,confidence_interval), "is", port_VaR)
-     
-    print("{} day Portfolio VaR at {}% Confidence Interval".format(Days,confidence_interval), "is USD", port_VaR*sum(exposure))
+    print("The total exposure for Portfolio is ", "{0:,.2f}".format(sum(exposure)),"USD")
+    print("{} day Portfolio VaR at {}% Confidence Interval".format(day,confidence_interval), "is", port_VaR) 
+    print("{} day Portfolio VaR at {}% Confidence Interval".format(day,confidence_interval), "is USD", port_VaR*sum(exposure))
 
-
-Port_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
+Portfolio_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
 # résultat(screen 1)
 
 tickers = ["AI.PA", "SGO.PA", "ALO.PA", "DG.PA","SAF.PA"]

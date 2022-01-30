@@ -32,7 +32,7 @@ vol = data['return'].std()
 confidence_interval = stats.norm.ppf(0.99)
 
 # Calculate Valute at Risk
-VaR = confidence_interval * vol *np.sqrt(1) 
+VaR = confidence_interval * vol *np.sqrt(1/250) 
 
 print("The Value at Risk of AIR LIQUIDE is {0:,.2f} USD".format(VaR*1000000/100))
 

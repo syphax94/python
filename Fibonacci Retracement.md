@@ -10,13 +10,11 @@ Ces niveaux sont où la majorité des analystes se concentrent, parce qu’ils a
 
 Les retracements Fibonacci peuvent être très efficaces pour faire une chronologie des entrées dans la direction de la tendance.
 
-* Remarque : il est  important d'installer yfinance et datetime afin que le script puisse fonctionner pour cela il nous suffit d'écrire cette commande !pip install yfinance, !pip install datetime
 
-Nous allons indiquer à yahoo finance le ticker=AI.PA qui représente AIR LIQUIDE, ainsi que la date de début et de fin (start,end)
 
-t= Période de 5 ans
 
-# Nous allons maintenant analyser la tendance pour l'action AIR LIQUIDE à l'aide du Retrecement de Fibonacci 
+
+# Analyser la tendance pour l'action AIR LIQUIDE à l'aide du Retrecement de Fibonacci 
 
 ```python
 import pandas as pd

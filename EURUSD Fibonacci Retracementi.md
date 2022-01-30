@@ -43,3 +43,5 @@ plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 plot.show()
 
 ```
+
+!(alt text)[https://www.zupimages.net/up/22/04/wwrt.png]

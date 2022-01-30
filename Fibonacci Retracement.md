@@ -68,14 +68,8 @@ plt.show()
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code
 
-
-
-
-![alt text](https://i.ibb.co/BLV5zQ0/screen3.png)
-
-* screen 5
-
 ![alt text](https://i.ibb.co/yXPGzHr/screen5.png)
+
 
 # Tendance sur 3 mois
 

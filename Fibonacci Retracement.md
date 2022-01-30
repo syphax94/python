@@ -61,12 +61,16 @@ plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 plt.show()
 ```
 
+# Level Percentage Price
+![alt text](blob:null/b0600ba2-e8dc-4c17-a9dc-6672f7360eda)
 
-![alt text](https://i.ibb.co/GtmTBG3/screen4.png)
+# Fibonacci Retracement action AIR LIQUIDE
+![alt text](blob:null/26a9160e-0db3-4802-ab76-36bd58519bbf)
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code.
 
-![alt text](https://i.ibb.co/yXPGzHr/screen5.png)
+
+![alt text](https://i.ibb.co/rZdLgmY/1.png)
 
 
 # Tendance sur 3 mois

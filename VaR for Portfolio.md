@@ -117,6 +117,3 @@ Screen 6
 
 ![alt text](https://i.ibb.co/zVHbcs7/screen-07.png)
 
-Merci pour votre lecture.
-
-Sifax

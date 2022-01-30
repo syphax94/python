@@ -60,24 +60,20 @@ plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 
 plt.show()
 ```
-* screen 4
+
 
 ![alt text](https://i.ibb.co/GtmTBG3/screen4.png)
 
-* Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code
+* Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code.
 
 ![alt text](https://i.ibb.co/yXPGzHr/screen5.png)
 
 
 # Tendance sur 3 mois
 
-* screen 6
-
 ![alt text](https://i.ibb.co/tD9DqvF/screen6.png)
 
 # Tendance sur ~ 30 jours
-
-* screen 7
 
 ![alt text](https://i.ibb.co/Czd4GLb/screen7.png)
 

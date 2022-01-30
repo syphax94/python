@@ -21,13 +21,14 @@ aipa = web.get_data_yahoo("AI.PA",
                         start = "2009-01-01",
                         end = "2022-1-26")
                         
-                        
+ aipa['return'] = np.log(data['AI.PA'] / data['AI.PA'].shift(-1))
+ 
 confidence_interval = float(input('Confidence Interval:'))
 days = int(input('Time Horizon: '))
 
 confidence_interval = stats.norm.ppf(confidence_interval/100)
 days = np.sqrt(days/250)
-vol = data['return'].std()
+vol = aipa['return'].std()
 
 VaR = vol * confidence_interval * days *100
                

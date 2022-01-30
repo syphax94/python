@@ -68,30 +68,9 @@ plt.show()
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code
 
-```python
-new_aipa =df
-fig = plt.figure(figsize=(20,10))
 
-plt.xlabel('Date', fontsize=17)
-plt.ylabel('Price (USD)', fontsize=17)
-ax = fig.add_subplot(1, 1, 1)
-plt.title('Fibonacci Retracement action AIR LIQUIDE',fontsize=20)  
-plt.plot(new_aipa.index, new_df['Close'], color='black')
 
-plt.axhline(maximum_price, linestyle='--' , alpha = 0.5, color='red')
-ax.fill_between(new_aipa.index, maximum_price, first_level,alpha = 0.5, color='red')
-plt.axhline(first_level, linestyle='--' , alpha = 0.5, color='orange')
-ax.fill_between(new_aipa.index, first_level, second_level, alpha = 0.5, color='orange')
-plt.axhline(second_level, linestyle='--' , alpha = 0.5, color='yellow')
-ax.fill_between(new_aipa.index, second_level, third_level, alpha = 0.5, color='yellow')
-plt.axhline(third_level, linestyle='--' , alpha = 0.5, color='green')
-ax.fill_between(new_aipa.index, third_level, fourth_level, alpha = 0.5, color='green')
-plt.axhline(fourth_level, linestyle='--' , alpha = 0.5, color='blue')
-ax.fill_between(new_aipa.index, fourth_level, minimum_price, alpha = 0.5, color='blue')
-plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 
-plt.show()
-```
 ![alt text](https://i.ibb.co/BLV5zQ0/screen3.png)
 
 * screen 5

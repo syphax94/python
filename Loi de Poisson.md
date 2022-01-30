@@ -33,7 +33,6 @@ P2= p2*100
 print('P2 =', "{:.2f}".format(P2),'%')
 print('Il y a',"{:.2f}".format(P2), '% de chance d obtenir 4 accidents de travaille')
 ```
-
-![alt text](https://www.zupimages.net/up/22/04/obzl.png)
+![alt text](https://www.zupimages.net/up/22/04/0s4j.png)
 
 ![alt text](https://www.zupimages.net/up/22/04/l5sh.png)

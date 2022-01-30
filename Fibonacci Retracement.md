@@ -70,7 +70,7 @@ plt.show()
 
 Tendance sur 3 mois
 
-![alt text](https://i.ibb.co/MByQn06/13.png)
+![alt text](https://www.zupimages.net/up/22/04/fq71.png)
 
 
 Tendance sur ~ 30 jours

@@ -93,7 +93,7 @@ print(np.average(call_payoffs)*100)
 
 ```
 
-![alt text](https://i.ibb.co/hZ86Xzg/screen1.png)
+![alt text](https://www.zupimages.net/up/22/04/sibi.png)
 
 
 

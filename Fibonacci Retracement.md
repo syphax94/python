@@ -27,12 +27,10 @@ import matplotlib.pyplot as plt
 import datetime as dt
 import yfinance as yf
 
-df = yf.download('AI.PA', start ="2018-01-01", end="2022-1-07")
+aipa = yf.download('AI.PA', start ="2018-01-01", end="2022-1-07")
 
-# Calculate the Fibonacci Retracement Level Prices 
-
-maximum_price = df['Close'].max()
-minimum_price = df['Close'].min()
+maximum_price = aipa['Close'].max()
+minimum_price = aipa['Close'].min()
 
 difference = maximum_price - minimum_price
 first_level = maximum_price - difference * 0.236
@@ -40,7 +38,6 @@ second_level = maximum_price - difference  * 0.382
 third_level = maximum_price - difference * 0.5
 fourth_level = maximum_price - difference * 0.618
 
- # Print the price at each level
  print('Level Percentage Price($)')
  print('00.0%\t\t', maximum_price)
  print('23.6%\t\t', first_level)
@@ -50,12 +47,12 @@ fourth_level = maximum_price - difference * 0.618
  print('100%\t\t', minimum_price) 
 
 
-new_df = df
+new_aipa = df
 plt.figure(figsize=(12,4))
 plt.title('Fibonacci Retracement action AIR LIQUIDE',fontsize=20)
 plt.xlabel('Date', fontsize=17)
 plt.ylabel('Price (USD)', fontsize=17)
-plt.plot(new_df.index, new_df['Close'],color='black')
+plt.plot(new_aipa.index, new_aipa['Close'],color='black')
 plt.axhline(maximum_price, linestyle='--' , alpha = 0.5, color='red')
 plt.axhline(first_level, linestyle='--' , alpha = 0.5, color='orange')
 plt.axhline(second_level, linestyle='--' , alpha = 0.5, color='yellow')
@@ -72,53 +69,46 @@ plt.show()
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code
 
 ```python
-new_df =df
+new_aipa =df
 fig = plt.figure(figsize=(20,10))
 
 plt.xlabel('Date', fontsize=17)
 plt.ylabel('Price (USD)', fontsize=17)
 ax = fig.add_subplot(1, 1, 1)
 plt.title('Fibonacci Retracement action AIR LIQUIDE',fontsize=20)  
-plt.plot(new_df.index, new_df['Close'], color='black')
+plt.plot(new_aipa.index, new_df['Close'], color='black')
 
 plt.axhline(maximum_price, linestyle='--' , alpha = 0.5, color='red')
-ax.fill_between(new_df.index, maximum_price, first_level,alpha = 0.5, color='red')
+ax.fill_between(new_aipa.index, maximum_price, first_level,alpha = 0.5, color='red')
 plt.axhline(first_level, linestyle='--' , alpha = 0.5, color='orange')
-ax.fill_between(new_df.index, first_level, second_level, alpha = 0.5, color='orange')
+ax.fill_between(new_aipa.index, first_level, second_level, alpha = 0.5, color='orange')
 plt.axhline(second_level, linestyle='--' , alpha = 0.5, color='yellow')
-ax.fill_between(new_df.index, second_level, third_level, alpha = 0.5, color='yellow')
+ax.fill_between(new_aipa.index, second_level, third_level, alpha = 0.5, color='yellow')
 plt.axhline(third_level, linestyle='--' , alpha = 0.5, color='green')
-ax.fill_between(new_df.index, third_level, fourth_level, alpha = 0.5, color='green')
+ax.fill_between(new_aipa.index, third_level, fourth_level, alpha = 0.5, color='green')
 plt.axhline(fourth_level, linestyle='--' , alpha = 0.5, color='blue')
-ax.fill_between(new_df.index, fourth_level, minimum_price, alpha = 0.5, color='blue')
+ax.fill_between(new_aipa.index, fourth_level, minimum_price, alpha = 0.5, color='blue')
 plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 
 plt.show()
 ```
+![alt text](https://i.ibb.co/BLV5zQ0/screen3.png)
 
 * screen 5
 
 ![alt text](https://i.ibb.co/yXPGzHr/screen5.png)
 
 # Tendance sur 3 mois
-```python
-df = yf.download('AI.PA', start ="2021-10-01", end="2022-12-31")
-```
+
 * screen 6
 
 ![alt text](https://i.ibb.co/tD9DqvF/screen6.png)
 
 # Tendance sur ~ 30 jours
-```python
-df = yf.download('AI.PA', start ="2021-12-01", end="2022-01-12")
-```
+
 * screen 7
 
 ![alt text](https://i.ibb.co/Czd4GLb/screen7.png)
 
 
-Merci pour votre lecture.
 
-Sifax
-
-![alt text](https://i.ibb.co/BLV5zQ0/screen3.png)

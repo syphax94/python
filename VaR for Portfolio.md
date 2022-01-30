@@ -45,7 +45,7 @@ def Portfolio_VaR(start_date, end_date, stocks, exposure, confidence_interval, d
     print("{} day Portfolio VaR at {}% Confidence Interval".format(day,confidence_interval), "is", port_VaR) 
     print("{} day Portfolio VaR at {}% Confidence Interval".format(day,confidence_interval), "is USD", port_VaR*sum(exposure))
 
-Portfolio_VaR('2009-1-1', '2022-1-26', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
+Portfolio_VaR('2009-1-1', '2022-1-28', ['AI.PA', 'SGO.PA', 'ALO.PA', 'DG.PA','SAF.PA'], [2000, 2000, 2000, 2000, 2000], 99, 1)
 # résultat(screen 1)
 
 tickers = ["AI.PA", "SGO.PA", "ALO.PA", "DG.PA","SAF.PA"]
@@ -92,7 +92,7 @@ Screen 1
 ![alt text](https://i.ibb.co/3f1LpMD/2.png)
 
 
-La VaR au seuil de confiance de 99% à 1 jour, égale à 353,61$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 353,61$.
+La VaR au seuil de confiance de 99% à 1 jour, égale à 353,68$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 353,68$.
 
 Screen 2
 

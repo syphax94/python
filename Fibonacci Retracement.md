@@ -62,10 +62,10 @@ plt.show()
 ```
 
 # Level Percentage Price
-![alt text](blob:null/b0600ba2-e8dc-4c17-a9dc-6672f7360eda)
+![alt text](https://i.ibb.co/56sC1Qj/11.png)
 
 # Fibonacci Retracement action AIR LIQUIDE
-![alt text](blob:null/26a9160e-0db3-4802-ab76-36bd58519bbf)
+![alt text](https://i.ibb.co/56sC1Qj/11.png)
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code.
 

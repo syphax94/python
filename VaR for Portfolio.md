@@ -18,7 +18,7 @@ import numpy as np
 import pandas_datareader as web
 from scipy.stats import norm
 
-def Port_VaR(start_date, end_date, stocks, exposure, confidence_interval, Days):
+def Portfolio_VaR(start_date, end_date, stocks, exposure, confidence_interval, Days):
     stock = pd.DataFrame()
     stock = web.DataReader(stocks,
                            start= start_date, 
@@ -26,22 +26,22 @@ def Port_VaR(start_date, end_date, stocks, exposure, confidence_interval, Days):
                            data_source="yahoo")['Close']
     stock_return = stock.pct_change()
     stock_vol = stock_return.std()
-    CL = norm.ppf(confidence_interval/100)
+    confidence_interval = norm.ppf(confidence_interval/100)
     
-    # Portfolio Variance Covariance Matrix
+    # Portfolio Covariance 
     stock_cov = np.array(stock_return.cov())
     
     # Stocks Weightage
-    weights = np.array(exposure)/sum(exposure)
-    weight_mat = np.mat(weights)
+    w = np.array(exposure)/sum(exposure)
+    w_mat = np.mat(w)
     
     # Portfoltio Variance
-    port_var = (weight_mat * stock_cov) * weight_mat.T
+    portfolio_var = (w_mat * stock_cov) * w_mat.T
     
     # Portfoltio VaR
-    port_VaR = np.sqrt(port_var) * CL * np.sqrt(Days)
+    portfolio_VaR = np.sqrt(port_var) * confidence_interval * np.sqrt(Days)
     
-    print("The total exposure for Portfolio is ", "{0:,.2f}".format(sum(exposure)),"USD")
+print("The total exposure for Portfolio is ", "{0:.2f}".format(sum(exposure)),"USD")
     
     print("{} day Portfolio VaR at {}% Confidence Interval".format(Days,confidence_interval), "is", port_VaR)
      

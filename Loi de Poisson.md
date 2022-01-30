@@ -20,7 +20,7 @@ def fact(x):
     if x == 0:
         return 1
     else:
-        return x  * factorielle(n-1)
+        return x  * fact(n-1)
         
 # aucun accident
 # P [ X = 0 ] = ((e^-3) * (3^0)) / 0!
@@ -35,7 +35,7 @@ print('Il y a',"{:.2f}".format(P) ,'% de chance d obtenir aucun accident de trav
 # au moins 4 accidents surviennent dans l'année
 # P [ x >= 4] = 1 - P [x < 4]
 #             = 1 - [P[X=0] + P[X=1] + P[X=2] + P[X=3]]
-p2 = 1 - (((np.exp(-3)) * (3**0)) / factorielle(0) + ((np.exp(-3)) * (3**1)) / factorielle(1) + ((np.exp(-3)) * (3**2)) / factorielle(2) + ((np.exp(-3)) * (3**3)) / factorielle(3))
+p2 = 1 - (((np.exp(-3)) * (3**0)) / fact(0) + ((np.exp(-3)) * (3**1)) / fact(1) + ((np.exp(-3)) * (3**2)) / fact(2) + ((np.exp(-3)) * (3**3)) / fact(3))
 
 print(p2)
 P2= p2*100

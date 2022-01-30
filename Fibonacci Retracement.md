@@ -4,17 +4,12 @@ Le retracement Fibonacci est une méthode employée pour déterminer les niveaux
 
 Il se base sur l’idée que le prix retracera une partie prédictible d’un mouvement original, après lequel il continue à se déplacer dans la direction originale.
 
-Historiquement, les plus communes zones de retracement ont été 38.2%, 50% et 61.8%. 
-
-Ces niveaux sont où la majorité des analystes se concentrent, parce qu’ils agissent dans le marché comme un tournant potentiel.
+Historiquement, les plus communes zones de retracement ont été 38.2%, 50% et 61.8%. Ces niveaux sont où la majorité des analystes se concentrent, parce qu’ils agissent dans le marché comme un tournant potentiel.
 
 Les retracements Fibonacci peuvent être très efficaces pour faire une chronologie des entrées dans la direction de la tendance.
 
 
-
-
-
-# Analyser la tendance pour l'action AIR LIQUIDE à l'aide du Retrecement de Fibonacci 
+# Analyser la tendance pour l'action AIR LIQUIDE
 
 ```python
 import pandas as pd

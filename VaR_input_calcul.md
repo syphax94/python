@@ -39,7 +39,7 @@ print("The Value at Risk of AIR LIQUIDE is {0:.2f} USD".format((VaR/100)*1000000
 # résultat (screen 1)
 ```
 
-![alt text](https://i.ibb.co/k61cgWc/screen-01.png)
+![alt text](https://i.ibb.co/2NvdGS8/1.png)
 
 La VaR au seuil de confiance de 99% à 1 jour, égale à 20,10$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention de l'action AIR LIQUIDE n'excéde pas 20,10$.
 

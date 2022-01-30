@@ -89,7 +89,7 @@ print(multpl_stock_monthly_returns.cov()) # screen 6
 
 Screen 1
 
-![alt text](https://i.ibb.co/0rqxxMw/screen-01.png)
+![alt text](https://i.ibb.co/3f1LpMD/2.png)
 
 
 La VaR au seuil de confiance de 99% à 1 jour, égale à 353,61$, signifie qu'il y a 99% de chances pour que la pertes associée à la détention des actifs composant le Portfeuille n'excéde pas 353,61$.

@@ -75,7 +75,7 @@ Tendance sur 3 mois
 
 Tendance sur ~ 30 jours
 
-![alt text](https://i.ibb.co/Czd4GLb/screen7.png)
+![alt text](https://www.zupimages.net/up/22/04/zr1d.png)
 
 
 

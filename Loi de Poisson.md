@@ -1,4 +1,12 @@
 ### Loi de Poisson
+Une variable aléatoire X suit une loi de Poisson de paramétre λ noté X ~>P(λ)
+
+Cas pratique:
+Le nombre X d'accidents de travail surviennent annuellement dans une entreprise obéit à une loi de poisson de paramêtre 3.
+
+Calculer la probabilité des évènements suivants:
+aucun accident ne survient pendant l'année
+au moins 4 accidents survienent dans l'année
 
 
 ```python

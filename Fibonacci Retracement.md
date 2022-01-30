@@ -60,7 +60,7 @@ plt.show()
 ![alt text](https://i.ibb.co/56sC1Qj/11.png)
 
 # Fibonacci Retracement action AIR LIQUIDE
-![alt text](https://i.ibb.co/56sC1Qj/11.png)
+![alt text](https://i.ibb.co/nP0dh4D/12.png)
 
 * Afin d'apporter une meilleure lecture du graphe nous allons apporter quelques modifications au code.
 

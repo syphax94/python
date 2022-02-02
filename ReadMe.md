@@ -4,7 +4,6 @@ Je suis Sifax, étudiant à l'ESLSCA Business School en MBA Trading - finance de
 
 Sur github, j'upload mes codes en python.
 
-L'objectif est de faire un maximum de cas pratique.
 
 
 

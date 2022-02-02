@@ -1,8 +1,5 @@
-Dans ce cas pratique, un ami effectue l'achat EURUSD.
+EURUSD
 
-![alt text](https://www.zupimages.net/up/22/05/znnl.png)
-
-Nous allons analyser qu'elle était la tendance du marché pour une seule position
 
 Position 1: 1.14762
 
@@ -44,4 +41,6 @@ plt.show()
 ```
 
 ![alt text](https://www.zupimages.net/up/22/05/l52r.png)
-!not done yet!
+
+
+

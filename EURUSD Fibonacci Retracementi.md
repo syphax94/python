@@ -44,7 +44,7 @@ plt.axhline(third_level, linestyle='--' , alpha = 0.5, color='green')
 plt.axhline(fourth_level, linestyle='--' , alpha = 0.5, color='blue')
 plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
 
-plot.show()
+plt.show()
 
 ```
 

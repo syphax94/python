@@ -25,18 +25,11 @@ second_level = maximum_price - difference  * 0.382
 third_level = maximum_price - difference * 0.5
 fourth_level = maximum_price - difference * 0.618
 
-new_EURUSD = EURUSD
-
-
 plt.figure(figsize=(12,6))
 plt.title('Fibonacci Retracement EURUSD',fontsize=20)
 plt.xlabel('Date', fontsize=17)
 plt.ylabel('Price (USD)', fontsize=17)
-
-
-
-plt.plot(new_EURUSD.index, new_EURUSD['Close'],color='black')
-
+plt.plot(EURUSD.index, EURUSD['Close'],color='black')
 plt.axhline(maximum_price, linestyle='--' , alpha = 0.5, color='red')
 plt.axhline(first_level, linestyle='--' , alpha = 0.5, color='orange')
 plt.axhline(second_level, linestyle='--' , alpha = 0.5, color='yellow')

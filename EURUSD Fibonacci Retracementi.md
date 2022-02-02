@@ -5,6 +5,7 @@ Dans ce cas pratique, un ami effectue l'achat EURUSD.
 Nous allons analyser qu'elle était la tendance du marché 
 
 Position 1: 1.14762
+
 Position 2: 1.14715
 
 ```python

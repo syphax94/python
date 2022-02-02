@@ -2,11 +2,11 @@ Dans ce cas pratique, un ami effectue l'achat EURUSD.
 
 ![alt text](https://www.zupimages.net/up/22/05/znnl.png)
 
-Nous allons analyser qu'elle était la tendance du marché 
+Nous allons analyser qu'elle était la tendance du marché pour une seule position
 
 Position 1: 1.14762
 
-Position 2: 1.14715
+
 
 ```python
 import pandas as pd
@@ -25,6 +25,7 @@ second_level = maximum_price - difference  * 0.382
 third_level = maximum_price - difference * 0.5
 fourth_level = maximum_price - difference * 0.618
 
+position_1 = 1.14762
 plt.figure(figsize=(12,6))
 plt.title('Fibonacci Retracement EURUSD',fontsize=20)
 plt.xlabel('Date', fontsize=17)
@@ -36,11 +37,11 @@ plt.axhline(second_level, linestyle='--' , alpha = 0.5, color='yellow')
 plt.axhline(third_level, linestyle='--' , alpha = 0.5, color='green')
 plt.axhline(fourth_level, linestyle='--' , alpha = 0.5, color='blue')
 plt.axhline(minimum_price, linestyle='--' , alpha = 0.5, color='purple')
+plt.axhline(y=position_1,  linestyle='-' , alpha = 0.5, color='red')
 
 plt.show()
 
 ```
 
-![alt text](https://www.zupimages.net/up/22/04/wwrt.png)
-
+![alt text](https://www.zupimages.net/up/22/05/l52r.png)
 !not done yet!

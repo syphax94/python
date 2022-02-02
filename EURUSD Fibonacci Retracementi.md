@@ -1,8 +1,11 @@
 Dans ce cas pratique, un ami effectue l'achat EURUSD.
 
-![alt text](https://www.zupimages.net/up/22/04/7vht.png)
+![alt text](https://www.zupimages.net/up/22/05/znnl.png)
 
-Nous allons analyser qu'elle était la tendance et comprendre pourquoi ce trade n'est pas un trade gagnant.
+Nous allons analyser qu'elle était la tendance du marché 
+
+Position 1: 1.14762
+Position 2: 1.14715
 
 ```python
 import pandas as pd

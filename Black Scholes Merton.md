@@ -61,6 +61,6 @@ print('Put Price is:{0:.3f} $'.format(put))
 print('-----------------------------------')
 ```
 
-![alt text](https://www.zupimages.net/up/22/05/ryof.png)
+![alt text](https://www.zupimages.net)
 
 

@@ -29,6 +29,7 @@ nd_n1=norm.cdf(-d1)
 nd_n2=norm.cdf(-d2)
 nd1=-d1
 nd2=-d2
+
 print('-----------------------------------')
 print('  Parametres :')
 print('---------------')

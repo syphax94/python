@@ -62,3 +62,5 @@ print('-----------------------------------')
 ```
 
 ![alt text](https://www.zupimages.net/up/22/05/ryof.png)
+
+* How to interpret N(d1) and N(d2) in Black Scholes Merton  (url: https://www.youtube.com/watch?v=spkim5Ns304)

@@ -1,8 +1,3 @@
-
-### Value At Risk
-
-La VaR mesure la pire perte attendue sur un horizon donné dans des conditions normales de marché à un niveau de confiance donné.
-
 ### Calucul de la VaR pour un portefeuille
 Supposons que notre portefeuille se compose de 5 actions d'une valeur de 10 000 $ 
 - AIR LIQUIDE (AI.PA) 

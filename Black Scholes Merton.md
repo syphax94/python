@@ -60,7 +60,6 @@ print('N(-d2) ={0:.3f}'.format(nd_n2))
 print('Put Price is:{0:.3f} $'.format(put))
 print('-----------------------------------')
 ```
-
-![alt text](https://www.zupimages.net)
+![alt text](https://www.zupimages.net/up/22/05/rs00.png)
 
 

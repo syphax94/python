@@ -1,8 +1,11 @@
 ### Hedging Strategies using Futures
 
 Assume that we have to manages a portfolio of $200 million wirth of tech stocks which has a beta of 1.5 relative to the Nasdaq-100.
+
 The current value of the 3 month Nasdaq-100 Index is 2,500, and the multiplier is 300.
+
 Over the next 3 months, we wants to use the Nasdaq-100 futures to reduce the systematic risk of the porfolio to 1.0
+
 To pull that off, wich how many contracts are required?
 
 

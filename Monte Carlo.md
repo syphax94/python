@@ -44,7 +44,7 @@ class European_Call_Payoff:
         if stock_price > self.strike:
             return stock_price - self.strike
         else:
-            return 
+            return 0
 
 
 class GeometricBrownianMotion:
@@ -56,6 +56,7 @@ class GeometricBrownianMotion:
             self.current_price += dYt  
             self.prices.append(self.current_price)  
             self.T -= self.dt 
+            
     def __init__(self, initial_price, drift, volatility, dt, T):
         self.current_price = initial_price      
         self.drift = drift
@@ -85,11 +86,12 @@ risk_free_rate = .01
 for price_path in price_paths:
     call_payoffs.append(EC.get_payoff(price_path[-1])/(1 + risk_free_rate))  
 
-
-plt.plot(price_path)   
+for price_path in price_paths:
+    plt.plot(price_path)  
+    
 plt.show()
 
-print(np.average(call_payoffs)*100)  
+print(np.average(call_payoffs)*100) 
 
 ```
 

@@ -13,7 +13,7 @@ p12= 0.00018
 
 p12 = P(p12, p1, p2) *100
 
-print('The default correlation for this portfolio is:{0:.2f}'.format(p12),'%')
+print('The default correlation for this portfolio is: {0:.2f}'.format(p12),'%')
 ```
 
-![alt text](https://www.zupimages.net/up/22/05/nu1v.png)
+![alt text](https://www.zupimages.net/up/22/05/jn9g.png)

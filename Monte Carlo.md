@@ -88,14 +88,16 @@ for price_path in price_paths:
 
 for price_path in price_paths:
     plt.plot(price_path)  
-    
+
+plt.axhline(y= initial_price, linestyle='-', alpha=1, color='black', label='Initial Price')
+plt.legend()
 plt.show()
 
 print(np.average(call_payoffs)*100) 
 
 ```
 
-![alt text](https://www.zupimages.net/up/22/04/sibi.png)
+![alt text](https://www.zupimages.net/up/22/05/kq08.png)
 
 
 

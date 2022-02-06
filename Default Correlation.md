@@ -1,8 +1,8 @@
 Assume we have a position in two credits:
 
-p1= 0.001
+* p1= 0.001
 
-p2= 0.004
+* p2= 0.004
 
 And the joint probability of default over time horizon t is: 0.00018
 

@@ -33,3 +33,4 @@ print('---------------')
 print('Sharpe Ratio is: {0:.2f}'.format(sharpe_ratio),'%')
 print('-----------------------------------')
 ```
+![alt text](https://www.zupimages.net/up/22/07/brgs.png)

@@ -8,6 +8,10 @@ import numpy as np
 
 data = pdr.DataReader('AI.PA',data_source='yahoo', start='2021-1-1', end='2022-2-18')
 
+def Sharpe_Ratio(cumu_return, rfr, volatility):
+    sharpe_ratio = (cumu_return - rfr) / volatility
+    return sharpe_ratio
+    
 data_close = data['Close']
 daily_return = data_close.pct_change()
 mean = np.mean(daily_return)
@@ -16,9 +20,7 @@ cumu_return = (data_close[-1]/data_close[0]) -1
 volatility = std * np.sqrt(252)
 rfr = 0.00693 # 2022-02-17
 
-def Sharpe_Ratio(cumu_return, rfr, volatility):
-    sharpe_ratio = (cumu_return - rfr) / volatility
-    return sharpe_ratio
+
 
 print('-----------------------------------')
 print('  Parametres :')

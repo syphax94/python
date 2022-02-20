@@ -14,7 +14,7 @@ mean = np.mean(daily_return)
 std = np.std(daily_return)
 cumu_return = (data_close[-1]/data_close[0]) -1
 volatility = std * np.sqrt(252)
-rfr = 0.00693 # 2022-02-17 from
+rfr = 0.00693 # 2022-02-17
 
 def Sharpe_Ratio(cumu_return, rfr, volatility):
     sharpe_ratio = (cumu_return - rfr) / volatility

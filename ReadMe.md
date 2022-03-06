@@ -8,7 +8,7 @@ Sur github, j'upload mes codes en python.
 
 
 
-email: s.djouab@etudiant-eslsca.fr
+email: s.djouab@etudiant.eslsca.fr
 
 
 

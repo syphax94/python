@@ -60,13 +60,17 @@ plt.legend()
 plt.show()
 
 ```
-
+### Ratio
 ![alt text](https://www.zupimages.net/up/22/11/zyza.png)
 
+### ESG
 ![alt text](https://www.zupimages.net/up/22/11/8cfj.png)
 
+### Actionnaires
 ![alt text](https://www.zupimages.net/up/22/11/hfqc.png)
 
+### Recommandation
 ![alt text](https://www.zupimages.net/up/22/11/uj0g.png)
 
+### Dividende croissant pour l'action Broadcom Inc
 ![alt text](https://www.zupimages.net/up/22/11/4c52.png)

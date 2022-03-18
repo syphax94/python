@@ -60,4 +60,13 @@ plt.legend()
 plt.show()
 
 ```
+
 ![alt text](https://www.zupimages.net/up/22/11/zyza.png)
+
+![alt text](https://www.zupimages.net/up/22/11/4yfk.png)
+
+![alt text](https://www.zupimages.net/up/22/11/hfqc.png)
+
+![alt text](https://www.zupimages.net/up/22/11/uj0g.png)
+
+![alt text](https://www.zupimages.net/up/22/11/4c52.png)

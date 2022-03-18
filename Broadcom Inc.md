@@ -60,7 +60,7 @@ plt.legend()
 plt.show()
 
 ```
-### Infos
+### Information
 ![alt text](https://www.zupimages.net/up/22/11/zoja.png)
 
 ### Ratio

@@ -74,3 +74,15 @@ plt.show()
 
 ### Dividende croissant pour l'action Broadcom Inc
 ![alt text](https://www.zupimages.net/up/22/11/4c52.png)
+
+### Simple Moving Average for Broadcom Inc
+![alt text]()
+
+### Fibonacci Retracement levels for Boradcam Inc
+![alt text]()
+
+### Sharpe Ratio for Broadcom Inc
+![alt text]()
+
+### Value at Risk for Broadcom Inc
+![alt text]()

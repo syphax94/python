@@ -34,7 +34,7 @@ dashboard.head(1)
 esg_df = broadcom.sustainability.T
 esg_df
 
-esg_data = esg_df[['socialScore','governanceScore', 'totalEsg', 'environmentScore']]
+esg_data = esg_df[['socialScore','governanceScore', 'environmentScore', 'totalEsg']]
 esg_data.head()
 
 broadcom.major_holders
@@ -63,7 +63,7 @@ plt.show()
 
 ![alt text](https://www.zupimages.net/up/22/11/zyza.png)
 
-![alt text](https://www.zupimages.net/up/22/11/4yfk.png)
+![alt text]()
 
 ![alt text](https://www.zupimages.net/up/22/11/hfqc.png)
 

@@ -84,8 +84,4 @@ plt.show()
 ### Fibonacci Retracement levels for Boradcam Inc
 ![alt text](https://www.zupimages.net/up/22/11/zgz5.png)
 
-### Sharpe Ratio for Broadcom Inc
-![alt text](https://www.zupimages.net/up/22/11/6s1r.png)
 
-### Value at Risk for Broadcom Inc
-![alt text](https://www.zupimages.net/up/22/11/zh2v.png)
